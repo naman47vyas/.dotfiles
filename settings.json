@@ -1,0 +1,27 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+   ],
+   "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-x>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-n>": false,
+        "<C-a>": false,
+        "<C-w>": false
+    },
+    
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "java.gradle.buildServer.enabled": "off"
+}
